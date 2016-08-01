@@ -1,0 +1,16 @@
+
+@media (min-width: 300px) and
+(orientation:landscape) {
+div img{
+ visibility: hidden;
+ } }
+ 
+@media (-webkit-device-aspect-ratio: 16/9){
+div p{
+ visibility:hidden;
+ } }
+ 
+ @media (-webkit-min-device-pixel-ratio: 1) , only screen and (-webkit-min-resolution: 90dpi) {
+ iframe{
+ visibility: visible;
+ } }
