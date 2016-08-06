@@ -1,16 +1,34 @@
-
-@media (min-width: 300px) and
-(orientation:landscape) {
 div img{
+	visibility: hidden;
+}
+@media only screen and (min-width: 300px) and
+(orientation: portrait) {
+div img{
+ visibility: visible;
+ } }
+/*@media only screen 
+and (-webkit-max-device-width: 600px)
+and (orientation:landscape){
+#image1 img {	
  visibility: hidden;
+
+ } }*/
+ 
+#text1 p{
+ 	visibility: hidden;
+ 	
+ }
+ 
+@media only screen 
+and (aspect-ratio: 4/3 ){
+#text1 p{
+	visibility: visible;
+	
  } }
  
-@media (-webkit-device-aspect-ratio: 16/9){
-div p{
- visibility:hidden;
- } }
+ 	
  
- @media (-webkit-min-device-pixel-ratio: 1) , only screen and (-webkit-min-resolution: 90dpi) {
+ @media only screen and (-webkit-min-device-pixel-ratio: 1) and (-webkit-min-resolution: 90dpi) {
  iframe{
  visibility: visible;
  } }
