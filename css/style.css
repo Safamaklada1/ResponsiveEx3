@@ -6,13 +6,7 @@ div img{
 div img{
  visibility: visible;
  } }
-/*@media only screen 
-and (-webkit-max-device-width: 600px)
-and (orientation:landscape){
-#image1 img {	
- visibility: hidden;
 
- } }*/
  
 #text1 p{
  	visibility: hidden;
